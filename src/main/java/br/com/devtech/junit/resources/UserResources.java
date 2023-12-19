@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.devtech.junit.domain.User;
 
 @RestController
-@RequestMapping(value = "/User")
+@RequestMapping(value = "/user")
 public class UserResources {
 
     @GetMapping(value = "/{id}")
